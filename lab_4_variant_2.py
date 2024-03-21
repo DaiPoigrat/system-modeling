@@ -13,7 +13,7 @@ for point in point_array:
     point_y.append(point[1])
 
 # 100 tests
-plt.scatter(point_x, point_y)
+# plt.scatter(point_x, point_y)
 # 50 tests
-# plt.scatter(point_x[:50], point_y[:50])
+plt.scatter(point_x[:50], point_y[:50])
 plt.show()
